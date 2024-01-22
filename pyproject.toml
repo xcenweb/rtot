@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "RTOT-您的微信公众号助手"
+version = "1.0.0"
+description = "新一代微信公众号助手"
+authors = ["xcenweb"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.23.2"
+fastapi = "^0.104.0"
+sqlalchemy = "^2.0.22"
+jinja2 = "^3.1.2"
+pymysql = "^1.1.0"
+wechatpy = "^1.8.18"
+cryptography = "^41.0.5"
+pillow = "^10.1.0"
+qrcode = "^7.4.2"
+geopy = "^2.4.0"
+six = "^1.16.0"
+starlette-admin = {extras = ["i18n"], version = "^0.12.2"}
+sqlmodel = "^0.0.14"
+starlette-session = "^0.4.3"
+bcrypt = "^4.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
